@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-03-20T08:11:09.755Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://yoursite.com/2019/03/20/hello/"/>
+    <id>http://yoursite.com/2019/03/20/hello/</id>
+    <published>2019-03-20T07:56:29.000Z</published>
+    <updated>2019-03-20T08:11:09.755Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我是董广明&lt;br&gt;你是谁？&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="程序" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+      <category term="spakr" scheme="http://yoursite.com/tags/spakr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/03/20/hello-world/"/>
+    <id>http://yoursite.com/2019/03/20/hello-world/</id>
+    <published>2019-03-20T06:52:03.758Z</published>
+    <updated>2017-10-28T00:39:58.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
