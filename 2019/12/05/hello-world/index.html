@@ -15,7 +15,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>Hexo</title>
+  <title>从Material-T到Fluid ~ Hexo</title>
 
   <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
@@ -36,7 +36,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -96,7 +96,7 @@
 </nav>
 
     <div class="view intro-2" id="background"
-         style="background: url('/img/default.png')no-repeat center center;
+         style="background: url('/img/5.png')no-repeat center center;
            background-size: cover;
            background-attachment: fixed;">
       <div class="full-bg-img">
@@ -107,12 +107,43 @@
             </span>
 
             
+              <br>
+              
+                <p class="mt-3">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  星期四, 十二月 5日 2019, 10:00 上午
+                </p>
+              
+
+              <p>
+                
+                  
+                  &nbsp;<i class="far fa-chart-bar"></i>
+                  <span class="post-count">
+                    311 字
+                  </span>&nbsp;
+                
+
+                
+                  
+                  &nbsp;<i class="far fa-clock"></i>
+                  <span class="post-count">
+                      1 分钟
+                  </span>&nbsp;
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv">
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>&nbsp;
+                
+              </p>
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
-            </div>
           
         </div>
       </div>
@@ -121,64 +152,63 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5 z-depth-3" id="board">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>项目转移这篇拖了好久嘿嘿嘿 用 Material-T 的同学应该注意到了，Material-T 已经更名为 Fluid 并转移到了 Fluid-dev 组织。之前在 issue #74 里简单解释了一下，其实原因也就是那么简单，我觉得 Material-T 交给社区比在我手里更靠谱，之前跟 @zkqiang 老哥合作开发的过程很流畅，也让我确信社区合作式的工作流不会增加时间成本（废话 :joy: ）。<br>下面简单说一下最近的更新，写完这篇以后就不再针对主题的更新水博客了，Release 里写的很清楚，我再 bb 就没必要了。<br>新功能配置自动合并对于 Hexo 主题更新这个大难题，总归是做了一次尝试，从 Theme configurations using Hexo data files 学来的（NexT 牛逼），现在体验还不错。<br>思路就是利用 Hexo 的数据文件功能，此功能要求 Hexo 3.0+。</p>
+<p>有时您可能需要在主题中使用某些资料，而这些资料并不在文章内，并且是需要重复使用的，那么您可以考虑使用 Hexo 3.0 新增的「数据文件」功能。此功能会载入 source/_data 内</p>
+
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+            
+              <span>
+                <i class="iconfont icon-tag"></i>
                 
-
-
-  <div class="row mb-4 mx-auto">
-    
-    
-      <div class="col-12 col-md-4 m-auto">
-        <a href="/2019/12/05/hello-world/" target="_self">
-          <img src="/img/5.png" srcset="/img/loading.gif" alt="从Material-T到Fluid" class="img-fluid rounded z-depth-3 index-thumbnails">
-        </a>
-      </div>
-    
-    <div class="col-12 col-md-8 m-auto">
-      <a href="/2019/12/05/hello-world/">
-        <p class="h4 index-header">从Material-T到Fluid</p>
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">项目转移这篇拖了好久嘿嘿嘿 用 Material-T 的同学应该注意到了，Material-T 已经更名为 Fluid 并转移到了 Fluid-dev 组织。之前在 issue #74 里简单解释了一下，其实原因也就是那么简单，我觉得 Material-T 交给社区比在我手里更靠谱，之前跟 @zkqiang 老哥合作开发的过程很流畅，也让我确信社区合作式的工作流不会增加时间成本（废话 :joy: ）。下面简单说一下最近的更新，写完这篇以后就不再针对主题的更新水博客了，Release 里写的很清楚，我再 bb 就没必要了。新功能配置自动合并对于 Hexo 主题更新这个大难题，总归是做了一次尝试，从 Theme configurations using Hexo data files 学来的（NexT 牛逼），现在体验还不错。思路就是利用 Hexo 的数据文件功能，此功能要求 Hexo 3.0+。
-有时您可能需要在主题中使用某些资料，而这些资料并不在文章内，并且是需要重复使用的，那么您可以考虑使用 Hexo 3.0 新增的「数据文件」功能。此功能会载入 source/_data 内
-</div>
-        </div>
-      </a>
-
-      <div>
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2019-12-05&nbsp;&nbsp;
-        
-        
-        
-          <i class="iconfont icon-tag"></i>
-          
-            <a href="/tags/%E5%BC%80%E5%8F%91">开发</a>&nbsp;
-          
-            <a href="/tags/%E6%B5%8B%E8%AF%95">测试</a>&nbsp;
-          
-        
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-              </div>
-            </div>
+                  <a class="hover-with-bg" href="/tags/%E5%BC%80%E5%8F%91">开发</a>
+                
+                  <a class="hover-with-bg" href="/tags/%E6%B5%8B%E8%AF%95">测试</a>
+                
+              </span>
+            
+            </p>
+            
+              <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+            
           </div>
         </div>
       </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+  <div id="toc">
+    <p class="h4"><i class="far fa-list-alt"></i>&nbsp;目录</p>
+    <div id="tocbot"></div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+  </div>
+</div>
+
     
   </main>
 
@@ -253,6 +283,11 @@
 
 
 
+  
+    <script src="/lib/tocbot/tocbot.min.js" ></script>
+  
+  <script src="/js/post.js" ></script>
+
 
 
   <script src="/lib/smooth-scroll/smooth-scroll.min.js" ></script>
@@ -293,7 +328,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "我是董广明&nbsp;",
+        "从Material-T到Fluid&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

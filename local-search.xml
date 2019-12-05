@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>从Material-T到Fluid</title>
+    <link href="undefined2019/12/05/hello-world/"/>
+    <url>2019/12/05/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>项目转移这篇拖了好久嘿嘿嘿 用 Material-T 的同学应该注意到了，Material-T 已经更名为 Fluid 并转移到了 Fluid-dev 组织。之前在 issue #74 里简单解释了一下，其实原因也就是那么简单，我觉得 Material-T 交给社区比在我手里更靠谱，之前跟 @zkqiang 老哥合作开发的过程很流畅，也让我确信社区合作式的工作流不会增加时间成本（废话 :joy: ）。<br>下面简单说一下最近的更新，写完这篇以后就不再针对主题的更新水博客了，Release 里写的很清楚，我再 bb 就没必要了。<br>新功能配置自动合并对于 Hexo 主题更新这个大难题，总归是做了一次尝试，从 Theme configurations using Hexo data files 学来的（NexT 牛逼），现在体验还不错。<br>思路就是利用 Hexo 的数据文件功能，此功能要求 Hexo 3.0+。</p><p>有时您可能需要在主题中使用某些资料，而这些资料并不在文章内，并且是需要重复使用的，那么您可以考虑使用 Hexo 3.0 新增的「数据文件」功能。此功能会载入 source/_data 内</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>开发</tag>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
